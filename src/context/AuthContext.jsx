@@ -1,52 +1,47 @@
-// * AuthProvider.js
-// * Name: AuthProvider
-// * Description: Custom context for managing user authentication.
-// * Since: v1.0.0
-// * Author: @crdgom
+// AuthContext.js
 
-import { createContext, useContext, useState } from 'react';
-import userServices from '../services/userService';
+import { createContext, useContext, useEffect, useState } from 'react';
 
+// Define un contexto de autenticación
 const AuthContext = createContext();
 
-export const AuthProvider = ({ children }) => {
+// Componente de proveedor de autenticación
+export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
 
-  const login = async (credentials) => {
+  // Función para realizar la solicitud de inicio de sesión
+  const login = async (name, email) => {
     try {
-      const response = await userServices.post('/auth/login', credentials, {
-        withCredentials: true, // Enviar cookies con la solicitud
+      const response = await fetch('/auth/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name, email }),
+        credentials: 'include', // Incluye cookies en la solicitud
       });
-      const { data } = response.headers;
-      console.log('la data es ', data);
-  
+
       if (response.status === 200) {
-        // Obtener el valor de la cookie de la respuesta
-        const accessTokenCookie = document.cookie
-        console.log(accessTokenCookie);
-        // Almacenar el valor de la cookie en el localStorage
-        localStorage.setItem('fetch-access-token', accessTokenCookie);
-  
-        // Actualizar el estado del usuario u otras acciones necesarias
-        setUser(credentials);
+        // El inicio de sesión fue exitoso, actualiza el estado del usuario
+        setUser({ name, email });
       } else {
         console.error('Authentication failed:', response.status);
       }
     } catch (error) {
-      console.error('Authentication error:', error);
+      console.error('Login error:', error);
     }
   };
 
+  // Función para cerrar sesión
   const logout = async () => {
     try {
-      const response = await userServices.post('/auth/logout', null, {
-        withCredentials: true, // Enviar cookies con la solicitud
+      const response = await fetch('/auth/logout', {
+        method: 'POST',
+        credentials: 'include', // Incluye cookies en la solicitud
       });
 
       if (response.status === 200) {
-        // Borrar la cookie de sesión
-        setSessionCookie('fetch-access-token', '');
-        // Limpiar el estado del usuario
+        // El cierre de sesión fue exitoso, actualiza el estado del usuario
         setUser(null);
       } else {
         console.error('Logout failed:', response.status);
@@ -63,6 +58,8 @@ export const AuthProvider = ({ children }) => {
   );
 }
 
-export const useAuth = () => {
+// Hook personalizado para acceder al contexto de autenticación
+export function useAuth() {
   return useContext(AuthContext);
-};
+}
+
