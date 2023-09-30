@@ -1,13 +1,14 @@
-// * Home.jsx
-// * Name: Home
-// * Description: Home component with Bootstrap.
+// * Friends.jsx
+// * Name: Friends
+// * Description: Friends page component with Bootstrap.
 // * Since: v1.0.0
 // * Author: @crdgom
 
-import  RandomHomeFriends from '../components/randomHomeFriends/RandomHomeFriends';
+import ProtectedDogList from '../components/protectedDogList/protectedDogList';
 import { Link } from 'react-router-dom';
 
-function Home () {
+
+function Friends () {
     return(
         <>
         <div className="container">
@@ -20,9 +21,9 @@ function Home () {
                 </div>
             </div>
         </div>
-        <RandomHomeFriends />
+        <ProtectedDogList />
         </>
     )
 }
 
-export default Home;
+export default Friends;

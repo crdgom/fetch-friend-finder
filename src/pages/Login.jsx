@@ -5,19 +5,27 @@
 // * Since: v1.0.0
 // * Author: @crdgom
 
+import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import { useState } from 'react';
 
 function Login() {
+  const navigate = useNavigate();
   const { login } = useAuth();
+  const [credentials, setCredentials] = useState({ name: '', email: '' });
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const name = e.target.name.value;
-    const email = e.target.email.value;
-
     // Call the login function from the AuthContext
-    await login({ name, email });
+    await login(credentials);
+
+    navigate('/find-new-friend');
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setCredentials({ ...credentials, [name]: value });
   };
 
   return (
@@ -37,6 +45,8 @@ function Login() {
                     className="form-control"
                     id="name"
                     name="name"
+                    value={credentials.name}
+                    onChange={handleChange}
                   />
                 </div>
                 <div className="mb-3">
@@ -48,6 +58,8 @@ function Login() {
                     className="form-control"
                     id="email"
                     name="email"
+                    value={credentials.email}
+                    onChange={handleChange}
                   />
                 </div>
                 <button type="submit" className="btn btn-primary">
@@ -63,3 +75,4 @@ function Login() {
 }
 
 export default Login;
+

@@ -1,36 +1,35 @@
-import './App.css'; // Puedes importar tus estilos CSS personalizados aquí si los tienes.
-import Login from './pages/Login'; // Importa el componente Login
+import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { AuthProvider } from './context/AuthContext'; // Importa el AuthProvider
+import { AuthProvider } from './context/AuthContext';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import Home from './pages/Home';
+import Login from './pages/Login'; 
+import Friends from './pages/Friends';
 
 function App() {
   return (
     <AuthProvider>
       <Router>
-      <div className="App">
-        <Header />
-        <main>
-          {/* Envolvemos las rutas con el enrutador de React Router */}
-          <Routes>
+        <div className="App">
+          <Header />
+          <main>
+            <Routes>
               {/* Rutas protegidas */}
-              
-
+              <Route path="/find-new-friend" element={<Friends />} />
               {/* Redireccionar a la página de inicio de sesión si no se encuentra ninguna ruta */}
               <Route path="/login" element={<Login />} />
               <Route path="/" element={<Home />} />
               {/* Puedes agregar una ruta de página no encontrada si lo deseas */}
-              <Route path="*" component={() => <h1>Página no encontrada</h1>} />
-              </Routes>
-          
-        </main>
-      </div>
-      <Footer />
+              <Route path="*" element={() => <h1>Página no encontrada</h1>} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
       </Router>
     </AuthProvider>
   );
 }
 
 export default App;
+

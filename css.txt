@@ -1,0 +1,1778 @@
+/* Desktop - Home (Without login) */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+isolation: isolate;
+
+position: relative;
+width: 1440px;
+height: 3014px;
+
+background: #F1ECE9;
+
+
+/* banner */
+
+position: absolute;
+width: 1440px;
+height: 680px;
+left: 0px;
+top: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* smiley-woman-holding-dog-medium-shot 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1440px;
+height: 680px;
+left: calc(50% - 1440px/2);
+top: calc(50% - 680px/2 - 1167px);
+
+background: url(smiley-woman-holding-dog-medium-shot.jpg);
+border: 1px solid #000000;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+/* Finding a friend */
+
+position: absolute;
+width: 471px;
+height: 77px;
+left: 20px;
+top: 90px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+
+color: #FBA919;
+
+
+
+/* has never been so easy */
+
+position: absolute;
+width: 536px;
+height: 58px;
+left: 20px;
+top: 184px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* Banner Button */
+
+position: absolute;
+width: 221px;
+height: 51px;
+left: 138px;
+top: 476px;
+
+
+
+/* Find out how BTN */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 221px;
+height: 51px;
+left: 138px;
+top: 476px;
+
+border: 2px solid #FFFFFF;
+border-radius: 5px;
+
+
+/* Find out how */
+
+position: absolute;
+width: 123px;
+height: 23px;
+left: 188px;
+top: 490px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #F1ECE9;
+
+
+
+/* Navbar */
+
+position: absolute;
+width: 1440px;
+height: 80px;
+left: 0px;
+top: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Nav */
+
+position: absolute;
+width: 1440px;
+height: 80px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.8;
+
+
+/* Nav buttons */
+
+position: absolute;
+width: 1379px;
+height: 60px;
+left: 41px;
+top: 10px;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+visibility: hidden;
+width: 103px;
+height: 80px;
+left: 20px;
+top: 0px;
+
+background: #12DEDE;
+
+
+/* fetch-friend-finder-logo 1 */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 41px;
+top: 10px;
+
+background: url(fetch-friend-finder-logo);
+
+
+/* Group 2 */
+
+position: absolute;
+width: 372px;
+height: 19px;
+left: 812px;
+top: 31px;
+
+
+
+/* Rectangle 7 */
+
+position: absolute;
+visibility: hidden;
+width: 1046px;
+height: 80px;
+left: 138px;
+top: 0px;
+
+background: #EF1B1B;
+
+
+/* Group 4 */
+
+position: absolute;
+width: 372px;
+height: 19px;
+left: 812px;
+top: 31px;
+
+
+
+/* Home */
+
+position: absolute;
+width: 45px;
+height: 19px;
+left: 812px;
+top: 31px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #6A09AD;
+
+
+
+/* About Us */
+
+position: absolute;
+width: 71px;
+height: 19px;
+left: 876px;
+top: 31px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #010203;
+
+
+
+/* Find a New Friend */
+
+position: absolute;
+width: 138px;
+height: 19px;
+left: 966px;
+top: 31px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #010203;
+
+
+
+/* Contact */
+
+position: absolute;
+width: 61px;
+height: 19px;
+left: 1123px;
+top: 31px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #010203;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+visibility: hidden;
+width: 221px;
+height: 80px;
+left: 1199px;
+top: 0px;
+
+background: #1AB9FD;
+
+
+/* Group 1 */
+
+position: absolute;
+width: 135px;
+height: 30px;
+left: 1285px;
+top: 25px;
+
+
+
+/* Group 3 */
+
+position: absolute;
+width: 135px;
+height: 30px;
+left: 1285px;
+top: 25px;
+
+
+
+/* Sign In */
+
+position: absolute;
+width: 52px;
+height: 19px;
+left: 1285px;
+top: 31px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #010203;
+
+
+
+/* Register */
+
+position: absolute;
+width: 63px;
+height: 19px;
+left: 1357px;
+top: 31px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #010203;
+
+
+
+/* Line 1 */
+
+position: absolute;
+width: 30px;
+height: 0px;
+left: 1347px;
+top: 25px;
+
+border: 3px solid #6A09AD;
+transform: rotate(90deg);
+
+
+/* How it Works Section */
+
+position: absolute;
+width: 1440px;
+height: 1024px;
+left: 0px;
+top: 680px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* HIW Bg */
+
+position: absolute;
+width: 1440px;
+height: 1024px;
+left: 0px;
+top: 680px;
+
+background: #6A09AD;
+
+
+/* Step 1 */
+
+position: absolute;
+width: 329px;
+height: 512px;
+left: 20px;
+top: 957px;
+
+
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+visibility: hidden;
+width: 339px;
+height: 390px;
+left: 20px;
+top: 957px;
+
+border: 1px solid #D9D9D9;
+
+
+/* Group 5 */
+
+position: absolute;
+width: 102px;
+height: 102px;
+left: 20px;
+top: 957px;
+
+
+
+/* circle s1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 102px;
+height: 102px;
+left: 20px;
+top: 957px;
+
+border: 4px solid #D9D9D9;
+
+
+/* 1 */
+
+position: absolute;
+width: 19.38px;
+height: 48.96px;
+left: 60.8px;
+top: 983.52px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* Doggo ipsum maximum borkdrive woofer pupperino sub woofer very jealous pupper heckin good boys wrinkler shooberino, heckin angery woofer you are doing me a frighten dat tungg tho borkdrive noodle horse doggo. fat boi pats big ol pupper. Ur givin me a spook blep doggo you are doing me a frighten, clouds blep. Wrinkler ruff big ol pupper waggy wags, much ruin diet tungg. Tungg borkdrive heckin angery woofer adorable doggo, the neighborhood pupper shooberino. */
+
+position: absolute;
+width: 319px;
+height: 395px;
+left: 30px;
+top: 1074px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+
+/* Register or Sign in */
+
+position: absolute;
+width: 176px;
+height: 24px;
+left: 138px;
+top: 996px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+
+/* Step 2 */
+
+position: absolute;
+width: 329px;
+height: 512px;
+left: 374px;
+top: 1107px;
+
+
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+visibility: hidden;
+width: 339px;
+height: 390px;
+left: 374px;
+top: 1107px;
+
+border: 1px solid #D9D9D9;
+
+
+/* Doggo ipsum maximum borkdrive woofer pupperino sub woofer very jealous pupper heckin good boys wrinkler shooberino, heckin angery woofer you are doing me a frighten dat tungg tho borkdrive noodle horse doggo. fat boi pats big ol pupper. Ur givin me a spook blep doggo you are doing me a frighten, clouds blep. Wrinkler ruff big ol pupper waggy wags, much ruin diet tungg. Tungg borkdrive heckin angery woofer adorable doggo, the neighborhood pupper shooberino. */
+
+position: absolute;
+width: 319px;
+height: 395px;
+left: 384px;
+top: 1224px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+
+/* Group 5 */
+
+position: absolute;
+width: 102px;
+height: 102px;
+left: 374px;
+top: 1107px;
+
+
+
+/* circle s1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 102px;
+height: 102px;
+left: 374px;
+top: 1107px;
+
+border: 4px solid #D9D9D9;
+
+
+/* 2 */
+
+position: absolute;
+width: 19.38px;
+height: 48.96px;
+left: 415px;
+top: 1134px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* Search your ideal friend */
+
+position: absolute;
+width: 168px;
+height: 48px;
+left: 492px;
+top: 1134px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+
+/* Step 3 */
+
+position: absolute;
+width: 329px;
+height: 512px;
+left: 728px;
+top: 1007px;
+
+
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+visibility: hidden;
+width: 339px;
+height: 390px;
+left: 728px;
+top: 1007px;
+
+border: 1px solid #D9D9D9;
+
+
+/* Doggo ipsum maximum borkdrive woofer pupperino sub woofer very jealous pupper heckin good boys wrinkler shooberino, heckin angery woofer you are doing me a frighten dat tungg tho borkdrive noodle horse doggo. fat boi pats big ol pupper. Ur givin me a spook blep doggo you are doing me a frighten, clouds blep. Wrinkler ruff big ol pupper waggy wags, much ruin diet tungg. Tungg borkdrive heckin angery woofer adorable doggo, the neighborhood pupper shooberino. */
+
+position: absolute;
+width: 319px;
+height: 395px;
+left: 738px;
+top: 1124px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+
+/* Group 5 */
+
+position: absolute;
+width: 102px;
+height: 102px;
+left: 728px;
+top: 1007px;
+
+
+
+/* circle s1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 102px;
+height: 102px;
+left: calc(50% - 102px/2 + 59px);
+top: calc(50% - 102px/2 - 449px);
+
+border: 4px solid #D9D9D9;
+
+
+/* 2 */
+
+position: absolute;
+width: 19.38px;
+height: 48.96px;
+left: 769px;
+top: 1034px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* Select your favorites */
+
+position: absolute;
+width: 200px;
+height: 24px;
+left: 846px;
+top: 1034px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+
+/* Step 4 */
+
+position: absolute;
+width: 329px;
+height: 513px;
+left: 1081px;
+top: 906px;
+
+
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+visibility: hidden;
+width: 339px;
+height: 390px;
+left: 1081px;
+top: 907px;
+
+border: 1px solid #D9D9D9;
+
+
+/* Doggo ipsum maximum borkdrive woofer pupperino sub woofer very jealous pupper heckin good boys wrinkler shooberino, heckin angery woofer you are doing me a frighten dat tungg tho borkdrive noodle horse doggo. fat boi pats big ol pupper. Ur givin me a spook blep doggo you are doing me a frighten, clouds blep. Wrinkler ruff big ol pupper waggy wags, much ruin diet tungg. Tungg borkdrive heckin angery woofer adorable doggo, the neighborhood pupper shooberino. */
+
+position: absolute;
+width: 319px;
+height: 395px;
+left: 1091px;
+top: 1024px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+
+/* Group 5 */
+
+position: absolute;
+width: 102px;
+height: 102px;
+left: 1081px;
+top: 906px;
+
+
+
+/* circle s1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 102px;
+height: 102px;
+left: calc(50% - 102px/2 + 412px);
+top: calc(50% - 102px/2 - 550px);
+
+border: 4px solid #D9D9D9;
+
+
+/* 2 */
+
+position: absolute;
+width: 19.38px;
+height: 48.96px;
+left: 1117px;
+top: 932px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* Our AI will find the perfect match */
+
+position: absolute;
+width: 178px;
+height: 48px;
+left: 1199px;
+top: 934px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+
+/* How it works? */
+
+position: absolute;
+width: 266px;
+height: 48px;
+left: 587px;
+top: 792px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+
+
+
+/* Fetch Friend Finder */
+
+position: absolute;
+width: 587px;
+height: 77px;
+left: 426px;
+top: 730px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+
+color: #FBA919;
+
+
+
+/* huellas */
+
+position: absolute;
+width: 1055.8px;
+height: 853.39px;
+left: 181.87px;
+top: 786.76px;
+
+
+
+/* huella 1 */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 204.85px;
+top: 900.87px;
+
+background: url(huella.png);
+transform: rotate(50deg);
+
+
+/* huella 2 */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 286.6px;
+top: 879.49px;
+
+background: url(huella.png);
+transform: rotate(60.5deg);
+
+
+/* huella 3 */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 375.53px;
+top: 879.73px;
+
+background: url(huella.png);
+transform: rotate(96.5deg);
+
+
+/* huella 4 */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 455.99px;
+top: 935.35px;
+
+background: url(huella.png);
+transform: rotate(128deg);
+
+
+/* huella 5 */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 492.3px;
+top: 1037.43px;
+
+background: url(huella.png);
+transform: rotate(174.5deg);
+
+
+/* huella 6 */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 687.64px;
+top: 1616.53px;
+
+background: url(huella.png);
+transform: rotate(147.5deg);
+
+
+/* huella 7 */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 762.3px;
+top: 1597.72px;
+
+background: url(huella.png);
+transform: rotate(46deg);
+
+
+/* huella 8 */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 822.65px;
+top: 1553.38px;
+
+background: url(huella.png);
+transform: rotate(16deg);
+
+
+/* huella 9 */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 889.68px;
+top: 956px;
+
+background: url(huella.png);
+transform: rotate(25deg);
+
+
+/* huella 10 */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 944.45px;
+top: 898.77px;
+
+background: url(huella.png);
+transform: rotate(41deg);
+
+
+/* huella 11 */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 1015.52px;
+top: 842.88px;
+
+background: url(huella.png);
+transform: rotate(52deg);
+
+
+/* huella 12 */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 1098.1px;
+top: 809.56px;
+
+background: url(huella.png);
+transform: rotate(80deg);
+
+
+/* huella 13 */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 1172.11px;
+top: 800.38px;
+
+background: url(huella.png);
+transform: rotate(117deg);
+
+
+/* huella 14 */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 1237.66px;
+top: 869.89px;
+
+background: url(huella.png);
+transform: rotate(163deg);
+
+
+/* Latest Friends Section */
+
+position: absolute;
+width: 1440px;
+height: 838px;
+left: 0px;
+top: 1704px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* puppies list Bg */
+
+position: absolute;
+width: 1440px;
+height: 838px;
+left: 0px;
+top: 1704px;
+
+background: #FFFFFF;
+
+
+/* Lastest friends */
+
+position: absolute;
+width: 464px;
+height: 77px;
+left: 488px;
+top: 1737px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 77px;
+
+color: #6A09AD;
+
+
+
+/* Friend Card */
+
+position: absolute;
+width: 457px;
+height: 501px;
+left: 20px;
+top: 1875px;
+
+
+
+/* Friend Image */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 457px;
+height: 500px;
+left: calc(50% - 457px/2 - 471.5px);
+top: 1875px;
+
+background: url(portrait-adorable-dog-looking-up);
+border: 2px solid #6A09AD;
+border-radius: 11px;
+
+
+/* Friend info */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 457px;
+height: 220px;
+left: 20px;
+top: 2156px;
+
+background: #FFFFFF;
+border-width: 0px 2px 2px 2px;
+border-style: solid;
+border-color: #6A09AD;
+border-radius: 0px 0px 11px 11px;
+
+
+/* Max */
+
+position: absolute;
+width: 66px;
+height: 39px;
+left: 38px;
+top: 2168px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #6A09AD;
+
+
+
+/* 4 Yrs */
+
+position: absolute;
+width: 61px;
+height: 29px;
+left: 38px;
+top: 2263px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #6A09AD;
+
+
+
+/* Location: 01234 */
+
+position: absolute;
+width: 188px;
+height: 29px;
+left: 38px;
+top: 2305px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #010203;
+
+
+
+/* Mixed */
+
+position: absolute;
+width: 83px;
+height: 34px;
+left: 38px;
+top: 2216px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+color: #FBA919;
+
+
+
+/* Star 1 */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 410px;
+top: 2314px;
+
+background: #D9D9D9;
+
+
+/* Friend Card */
+
+position: absolute;
+width: 457px;
+height: 501px;
+left: 491px;
+top: 1875px;
+
+
+
+/* Friend Image */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 457px;
+height: 500px;
+left: calc(50% - 457px/2 - 0.5px);
+top: 1875px;
+
+background: url(portrait-adorable-dog-looking-up);
+border: 2px solid #6A09AD;
+border-radius: 11px;
+
+
+/* Friend info */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 457px;
+height: 220px;
+left: 491px;
+top: 2156px;
+
+background: #FFFFFF;
+border-width: 0px 2px 2px 2px;
+border-style: solid;
+border-color: #6A09AD;
+border-radius: 0px 0px 11px 11px;
+
+
+/* Max */
+
+position: absolute;
+width: 66px;
+height: 39px;
+left: 509px;
+top: 2168px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #6A09AD;
+
+
+
+/* 4 Yrs */
+
+position: absolute;
+width: 61px;
+height: 29px;
+left: 509px;
+top: 2263px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #6A09AD;
+
+
+
+/* Location: 01234 */
+
+position: absolute;
+width: 188px;
+height: 29px;
+left: 509px;
+top: 2305px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #010203;
+
+
+
+/* Mixed */
+
+position: absolute;
+width: 83px;
+height: 34px;
+left: 509px;
+top: 2216px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+color: #FBA919;
+
+
+
+/* Star 1 */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 881px;
+top: 2314px;
+
+background: #D9D9D9;
+
+
+/* Friend Card */
+
+position: absolute;
+width: 457px;
+height: 501px;
+left: 963px;
+top: 1875px;
+
+
+
+/* Friend Image */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 457px;
+height: 500px;
+left: calc(50% - 457px/2 + 471.5px);
+top: 1875px;
+
+background: url(portrait-adorable-dog-looking-up);
+border: 2px solid #6A09AD;
+border-radius: 11px;
+
+
+/* Friend info */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 457px;
+height: 220px;
+left: 963px;
+top: 2156px;
+
+background: #FFFFFF;
+border-width: 0px 2px 2px 2px;
+border-style: solid;
+border-color: #6A09AD;
+border-radius: 0px 0px 11px 11px;
+
+
+/* Max */
+
+position: absolute;
+width: 66px;
+height: 39px;
+left: 981px;
+top: 2168px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #6A09AD;
+
+
+
+/* 4 Yrs */
+
+position: absolute;
+width: 61px;
+height: 29px;
+left: 981px;
+top: 2263px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #6A09AD;
+
+
+
+/* Location: 01234 */
+
+position: absolute;
+width: 188px;
+height: 29px;
+left: 981px;
+top: 2305px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #010203;
+
+
+
+/* Mixed */
+
+position: absolute;
+width: 83px;
+height: 34px;
+left: 981px;
+top: 2216px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+color: #FBA919;
+
+
+
+/* Star 1 */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 1353px;
+top: 2314px;
+
+background: #D9D9D9;
+
+
+/* Footer */
+
+position: absolute;
+width: 1440px;
+height: 474px;
+left: 0px;
+top: 2540px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+z-index: 4;
+
+
+/* Rectangle 8 */
+
+position: absolute;
+width: 1440px;
+height: 474px;
+left: 0px;
+top: 2540px;
+
+background: #FBA919;
+
+
+/* Rectangle 9 */
+
+position: absolute;
+visibility: hidden;
+width: 456px;
+height: 394px;
+left: 20px;
+top: 2580px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 11 */
+
+position: absolute;
+visibility: hidden;
+width: 456px;
+height: 394px;
+left: 491px;
+top: 2580px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+visibility: hidden;
+width: 456px;
+height: 394px;
+left: 964px;
+top: 2580px;
+
+background: #D9D9D9;
+
+
+/* Group 7 */
+
+position: absolute;
+width: 297px;
+height: 315px;
+left: 983px;
+top: 2632px;
+
+
+
+/* Privacy */
+
+position: absolute;
+width: 72px;
+height: 24px;
+left: 983px;
+top: 2670px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* CCPA & CPRA */
+
+position: absolute;
+width: 134px;
+height: 24px;
+left: 983px;
+top: 2708px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* Terms & Conditions */
+
+position: absolute;
+width: 189px;
+height: 24px;
+left: 983px;
+top: 2632px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* GDPR */
+
+position: absolute;
+width: 56px;
+height: 24px;
+left: 983px;
+top: 2746px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* PIPL */
+
+position: absolute;
+width: 43px;
+height: 24px;
+left: 983px;
+top: 2784px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* ©2023 FFF. All rights reserved */
+
+position: absolute;
+width: 297px;
+height: 24px;
+left: 983px;
+top: 2923px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* Group 6 */
+
+position: absolute;
+width: 174px;
+height: 310px;
+left: 510px;
+top: 2632px;
+
+
+
+/* Facebook */
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 514px;
+top: 2892px;
+
+background: url(image.png);
+
+
+/* Help */
+
+position: absolute;
+width: 45px;
+height: 24px;
+left: 510px;
+top: 2670px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* Blog */
+
+position: absolute;
+width: 44px;
+height: 24px;
+left: 510px;
+top: 2708px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* Donations */
+
+position: absolute;
+width: 99px;
+height: 24px;
+left: 510px;
+top: 2632px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* FAQ’S */
+
+position: absolute;
+width: 57px;
+height: 24px;
+left: 510px;
+top: 2746px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* pngwing 1 */
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 634px;
+top: 2892px;
+
+background: url(pngwing.png);
+
+
+/* fetch-friend-finder-logo 1 */
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 198px;
+top: 2594px;
+
+background: url(fetch-friend-finder-logo);
+mix-blend-mode: difference;
+
+
+/* FETCH FRIEND FINDER */
+
+position: absolute;
+width: 439px;
+height: 48px;
+left: 29px;
+top: 2704px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+
+
+
+/* QR */
+
+position: absolute;
+width: 150px;
+height: 150px;
+left: 173px;
+top: 2797px;
+
+background: url(frame.png);
