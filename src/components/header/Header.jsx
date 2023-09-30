@@ -11,11 +11,10 @@ import logo from '../../assets/fetch-friend-finder-logo.webp';
 
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-white justify-content-center">
       <div className="container">
         <Link className="navbar-brand" to="/">
           <img src={logo} alt="Logo" width="50" height="50" />
-          My App
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
