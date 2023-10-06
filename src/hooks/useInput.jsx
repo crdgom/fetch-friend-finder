@@ -1,17 +1,26 @@
 import { useState } from 'react';
 
-// Custom hook to handle input fields in forms
-// Since: Version 1.0.0
-// Author: @crdgom
+// useInput.js
+// * Name: useInput
+// * Description: Custom hook for managing form input fields.
+// * It returns the input value and a function to update it.
+// * Since: v1.0.0
+// * Author: @crdgom
 
-export const useInput = (initialValue) => {
+export const useInput = (initialValue = '') => {
     const [value, setValue] = useState(initialValue);
-    
-    const handleChange = (e) => 
-        setValue(e.target.value);
-    
-        return { value,
-            onChange: handleChange,
-        setValue
+  
+    const handleChange = (e) => {
+      setValue(e.target.value);
     };
-}
+  
+    const reset = () => {
+      setValue(initialValue);
+    };
+  
+    return {
+      value,
+      onChange: handleChange,
+      reset,
+    };
+  };

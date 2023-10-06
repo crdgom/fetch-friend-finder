@@ -1,35 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { AuthProvider } from './context/AuthContext';
+import { FavoritesProvider } from './context/FavoritesContext';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+import Home from './pages/Home';
+import Login from './pages/Login'; 
+import Friends from './pages/Friends';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <AuthProvider>
+      <FavoritesProvider>
+        <Router>
+          <div className="App">
+            <Header />
+            <main>
+              <Routes>
+                {/* Rutas protegidas */}
+                <Route path="/find-new-friend" element={<Friends />} />
+                {/* Redireccionar a la página de inicio de sesión si no se encuentra ninguna ruta */}
+                <Route path="/login" element={<Login />} />
+                <Route path="/" element={<Home />} />
+                {/* Puedes agregar una ruta de página no encontrada si lo deseas */}
+                <Route path="*" element={() => <h1>Página no encontrada</h1>} />
+              </Routes>
+            </main>
+            <Footer />
+          </div>
+        </Router>
+      </FavoritesProvider>
+    </AuthProvider>
+  );
 }
 
-export default App
+export default App;
+
