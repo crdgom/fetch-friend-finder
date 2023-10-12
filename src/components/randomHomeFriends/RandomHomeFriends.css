@@ -1,0 +1,45 @@
+.latest-friends-title{
+    color: #6A09AD;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.card{
+    border : 1px solid #6A09AD !important;
+    padding: 0;
+}
+
+.card-img-top{
+    height: 400px;
+    object-fit: cover;
+}
+
+.card-title{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.9rem;
+    margin: 0;
+    color: #6A09AD !important;
+}
+.card-text {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 2.9rem;
+}
+
+.friend-breed{
+    color: #FBA919;
+    font-size: 1.4rem;
+}
+
+.friend-age{
+    font-size: 1.4rem;
+}
+
+.friend-location{
+    font-size: 1.4rem;
+}

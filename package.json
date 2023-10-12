@@ -6,13 +6,17 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "lint --fix",
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.5.1",
     "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.1",
+    "dotenv": "^16.3.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
